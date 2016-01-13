@@ -24,11 +24,11 @@
     
     2. ~~手动安装扩展(仅限非 Windows 用户)~~
     
-        ~~也可以直接在**这里**下载扩展，然后点击 [chrome://extensions/](chrome://extensions/) 打开扩展，将插件拖入即可完成安装。~~ 
+        ~~也可以直接下载扩展，然后拖动到 Chrome 扩展页面中，完成安装即可。~~ 
 
         本插件会频繁升级，暂不支持手动安装扩展。
 
-        ** Windows版本 ** 也在开发中，即将发布。
+        **Windows版本** 也在开发中，即将发布。
 
 2.  使用
     
@@ -39,6 +39,13 @@
 3.  反馈
 
     1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
+
+
+4.  截图
+
+<div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png' width="300px" style='border: #f1f1f1 solid 1px'/></div>
+
+<div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png' width="300px" style='border: #f1f1f1 solid 1px'/></div>
 
 ### 其他
 
