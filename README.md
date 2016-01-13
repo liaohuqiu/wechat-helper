@@ -36,16 +36,12 @@
 
     2.  如果提示操作过于频繁，请稍后再试，下次会跳过已经检查过的好友。
 
-3.  反馈
 
-    1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
+3.  截图
 
+    <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png'/></div>
 
-4.  截图
-
-    <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png' width="500px" style='border: #f1f1f1 solid 1px'/></div>
-
-    <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png' width="500px" style='border: #f1f1f1 solid 1px'/></div>
+    <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png'/></div>
 
 ### 其他
 
@@ -58,3 +54,8 @@
     目前代码托管在私有 Git 上，在产品稳定之后，我会开源。
     
     如果这个插件使用的人多的话，我还会写篇文章，分享关于这个插件的非编码开发部分。
+
+2.  反馈
+
+    1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
+
