@@ -43,9 +43,9 @@
 
 4.  截图
 
-<div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png' width="300px" style='border: #f1f1f1 solid 1px'/></div>
+    <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png' width="500px" style='border: #f1f1f1 solid 1px'/></div>
 
-<div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png' width="300px" style='border: #f1f1f1 solid 1px'/></div>
+    <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png' width="500px" style='border: #f1f1f1 solid 1px'/></div>
 
 ### 其他
 
