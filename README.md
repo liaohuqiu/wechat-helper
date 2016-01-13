@@ -1,3 +1,7 @@
+#### 感谢
+
+感谢 @0x5e 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends)
+
 ## 微信助手
 
 ### 特性
@@ -18,9 +22,11 @@
     
         https://chrome.google.com/webstore/detail/bdfbkchemknlpmmopkncahjdmocnambd/
     
-    2. ~~手动安装扩展~~
+    2. ~~手动安装扩展(非 Windows 用户)~~
     
-        ~~也可以直接在[这里]()下载扩展，然后拖动到 Chrome 中，完成安装即可。~~
+        ~~也可以直接下载扩展，然后拖动到 Chrome 中，完成安装即可。~~
+
+        本插件会频繁升级，暂不支持手动安装扩展。
 
 2.  使用
     
