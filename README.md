@@ -1,6 +1,6 @@
 #### 感谢
 
-感谢 @0x5e 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends)
+感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends)
 
 ## 微信助手 - Chrome 插件
 
@@ -18,15 +18,9 @@
 
     1. 从 Chrome 商店安装。
     
-        Chrome 插件
-    
         https://chrome.google.com/webstore/detail/bdfbkchemknlpmmopkncahjdmocnambd/
     
-    2. ~~手动安装扩展(仅限非 Windows 用户)~~
-    
-        ~~也可以直接下载扩展，然后拖动到 Chrome 扩展页面中，完成安装即可。~~ 
-
-        本插件会频繁升级，暂不支持手动安装扩展。
+    2.  本插件会频繁升级，暂不支持手动安装扩展。
 
         **Windows版本** 也在开发中，即将发布。
 
@@ -42,6 +36,13 @@
     <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png'/></div>
 
     <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png'/></div>
+
+
+### 原理
+
+1.  检查联系人，即创建群组并加人，如果不是好友，无法加入。
+
+2.  如果联系人多，将会分批操作，下次会略过之前检查过的联系人。
 
 ### 其他
 
