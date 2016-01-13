@@ -1,7 +1,3 @@
-#### 感谢
-
-感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends)
-
 ## 微信助手 - Chrome 插件
 
 1.  检查被谁删除
@@ -60,3 +56,6 @@
 
     1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
 
+3.  感谢
+
+    感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends), 所谓巨人的肩膀。^_^
