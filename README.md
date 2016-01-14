@@ -1,5 +1,3 @@
-感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends), 所谓巨人的肩膀。^_^
-
 ## 微信助手 - Chrome 插件
 
 1.  检查被谁删除
@@ -24,9 +22,9 @@
 
 2.  使用
     
-    1.  时间间隔设置为 **30** 秒以上
+    1.  时间间隔设置为 **60** 秒以上
 
-    2.  如果提示操作过于频繁，请稍后再试，下次会跳过已经检查过的好友。
+    2.  **如果提示操作过于频繁，请稍后再试，下次会跳过已经检查过的好友。**
 
 
 3.  截图
@@ -57,3 +55,7 @@
 2.  反馈
 
     1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
+
+3.  感谢
+
+    感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends), 所谓巨人的肩膀。^_^
