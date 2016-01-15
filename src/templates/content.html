@@ -1,0 +1,39 @@
+<div class='ui-resizable wxhelper_inject_left'>
+    <a class='wxhelper_toggle btn' data-ga='toggle|click'>
+        <span class="glyphicon glyphicon-menu-left"></span>
+        <span class="glyphicon glyphicon-menu-right"></span>
+    </a>
+    <div id='wxhelper_box' class=''>
+        <div class='wxhelper_content'>
+            <div class='wxhelper_view_header'>
+                <div>
+                    <span class='title'>{{ i18n.app_name }}</span>
+                </div>
+                <div>
+                    <span class='version'>v{{ version }}</span>
+                    <span class='author'>by <a data-ga='author|click|top' href='{{ link.author }}' target='_blank'>@liaohuqiu</a></span>
+                    <span class='github'><a data-ga='github|click' href='{{ link.github }}' target='_blank'>GitHub</a></span>
+                    <span class='about'><a data-ga='about|click|header' href='{{ i18n['about_link'] }}' target='_blank'>{{ i18n['about'] }}</a></span>
+                </div>
+            </div>
+            <div class='wxhelper_view'>
+                <div class='action_list'>
+                    <button data-ga='check_friend|click' class='check_friend btn'>{{ i18n.check_friend }}</button> {{ i18n.check_friend_time_limit }}<input type='text' class='time_limit' id='time_limit' value='60'/>
+                </div>
+                <div class='message_box'>
+                </div>
+                <div class='action_list'>
+                    <button data-ga='clear_log|click' class='clear_log btn'>{{ i18n.clear_log }}</button>
+                </div>
+            </div>
+            <div class='wxhelper_view_footer'>
+                <p class='donate_tip'>{{ i18n['donate_tip'] }}</p>
+                <div class='qrcode_box'>
+                    <i class="hi hi-wechat_pay_link"></i>
+                </div>
+                <p class='make_with'>Made with <span class="glyphicon glyphicon-heart"></span> by <a data-ga='author|click' href='{{ link.author }}' target='_blank'>@liaohuqiu</a> </p>
+                <p class='make_with'>in the San Francisco Bay Area.</p>
+            </div>
+        </div>
+    </div>
+</div>

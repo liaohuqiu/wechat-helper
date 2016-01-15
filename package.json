@@ -1,0 +1,51 @@
+{
+  "name": "wechat-delete-friend",
+  "engines": {
+    "node": "^4.1.2"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "clean-map": "rm -rf ./extension/dist/*/*.map",
+    "empty-css": "rm -rf ./extension/dist/css/*; echo '' > ./extension/dist/css/app.css",
+    "build-popup": "env=dev target=popup webpack --progress --colors --watch -d",
+    "build-popup-prod": "npm run clean-map && env=prod target=popup webpack --progress --colors -p",
+    "build": "npm run empty-css && env=dev webpack --progress --colors --watch -d",
+    "build-prod": "npm run clean-map && env=prod webpack --progress --colors -p",
+    "update-cube": "rm -rf node_modules/cube-js/lib; cp -rf ../cube-js/lib node_modules/cube-js/"
+  },
+  "author": "liaohuqiu@gmail.com",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "bootstrap-sass": "~3.3.1",
+    "bootstrap-sass-loader": "^1.0.9",
+    "css-loader": "^0.23.0",
+    "cube-js": "0.0.4",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.4",
+    "flexslider": "^2.5.0",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.10.5",
+    "json-loader": "^0.5.4",
+    "less-loader": "^2.2.1",
+    "loglevel": "^1.4.0",
+    "q": "^1.4.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.1",
+    "sprintf-js": "^1.0.3",
+    "style-loader": "^0.13.0",
+    "swig": "^1.4.2",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}

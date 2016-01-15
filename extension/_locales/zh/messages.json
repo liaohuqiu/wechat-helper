@@ -1,0 +1,83 @@
+{
+  "app_name": {
+    "message": "微信助手"
+  },
+  "check_friend": {
+    "message": "检查好友情况"
+  },
+  "check_friend_time_limit": {
+    "message": "间隔："
+  },
+  "clear_log": {
+    "message": "清除日志"
+  },
+  "doc_check_init_start": {
+    "message": "开始初始化..."
+  },
+  "doc_check_init_done": {
+    "message": "初始化完成"
+  },
+  "doc_begin_check": {
+    "message": "开始检查..."
+  },
+  "doc_get_contact_list": {
+    "message": "更新联系人列表..."
+  },
+  "doc_get_contact_list_done": {
+    "message": "更新完成，共 %s 个联系人"
+  },
+  "doc_get_contact_list_error": {
+    "message": "更新联系人列表出错"
+  },
+  "doc_many_friend_warning": {
+    "message": "所需处理的好友数量较多，所需时间可能较长"
+  },
+  "doc_unlogin": {
+    "message": "未登录，请扫描二维码登录"
+  },
+  "doc_resume_from_last": {
+    "message": "跳过 %s 个之前已经处理过的联系人"
+  },
+  "doc_split_group": {
+    "message": "%s 个联系人被分割为 %s 组，每组 %s 人"
+  },
+  "doc_check_friend_round": {
+    "message": "处理第 %s 批联系人，需要 %s 秒，请稍侯"
+  },
+  "doc_delete_list_tip": {
+    "message": "%s 已经把你删除"
+  },
+  "doc_black_list_tip": {
+    "message": "%s 已经把你加入黑名单"
+  },
+  "doc_check_friend_done": {
+    "message": "所有联系人处理完毕"
+  },
+  "doc_all_contact_ok": {
+    "message": "未发现被删除或黑名单"
+  },
+  "doc_try_add_member": {
+    "message": "尝试将联系人加入临时群组，请稍侯"
+  },
+  "doc_try_remove_member": {
+    "message": "将联系人从临时群组移除，请稍侯"
+  },
+  "create_chat_room_error": {
+    "message": "创建临时群组失败，请重试。"
+  },
+  "unknow_error": {
+    "message": "未知网络错误。"
+  },
+  "donate_tip": {
+    "message": "如果你觉得这个插件不错，欢迎打赏。"
+  },
+  "open_web_wechat": {
+    "message": "打开微信网页版"
+  },
+  "about": {
+    "message": "关于"
+  },
+  "about_link": {
+    "message": "http://www.liaohuqiu.net/cn/posts/wechat-helper/"
+  }
+}

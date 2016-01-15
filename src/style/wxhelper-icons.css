@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "wxhelper-icons";
+  src: url('../fonts/wxhelper-icons.eot');
+  src: url('../fonts/wxhelper-icons.eot?#iefix') format('eot'),
+    url('../fonts/wxhelper-icons.woff') format('woff'),
+    url('../fonts/wxhelper-icons.ttf') format('truetype'),
+    url('../fonts/wxhelper-icons.svg#wxhelper-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hi:before {
+  display: inline-block;
+  font-family: "wxhelper-icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hi-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.hi-2x { font-size: 2em; }
+.hi-3x { font-size: 3em; }
+.hi-4x { font-size: 4em; }
+.hi-5x { font-size: 5em; }
+.hi-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.hi-logo:before { content: "\EA01" }
+.hi-wechat_pay_link:before { content: "\EA02" }

@@ -1,0 +1,242 @@
+@import "./wxhelper-icons.css";
+
+// Primary text
+$primary_text: #4a4a4a;
+
+// Secondary text
+$secondary_text: #929292;
+
+// Hint text, disabled text and icons. unused now.
+$tertiary_text: #a7a9ac;
+
+$dividers_color: #dbdbdb;
+
+$secondary_color: #f9885e;
+
+$bg_color: #F7F7F7;
+$bg_color_highlight: #EEE;
+
+$primary_color: #3C9307;
+
+.wxhelper_inject_hide {
+  &.wxhelper_inject {
+    .wxhelper_inject_left {
+      .wxhelper_toggle {
+        .glyphicon-menu-left {
+          display: none;
+        }
+        .glyphicon-menu-right {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.wxhelper_inject {
+
+  position: relative;
+
+  .wxhelper_inject_left {
+
+    position: absolute;
+    height: 100%;
+    min-height: 700px;
+    min-width: 280px;
+    width: 280px;
+    left: -280px;
+
+    .ui-resizable-e {
+      position: absolute;
+      cursor: col-resize;
+      width: 5px;
+      right: 10px;
+      top: 0px;
+      bottom: 0px;
+    }
+  }
+
+  .wxhelper_inject_right {
+    left: 0;
+    position: absolute;
+    min-width: 60%;
+    width: 100%;
+  }
+
+  .main_inner {
+    min-width: 0;
+  }
+}
+
+.wxhelper_inject {
+
+  .wxhelper_inject_left {
+
+    font-size: 14px;
+    color: $primary_text;
+
+    a {
+      color: $primary_color;
+      &:visited {
+        color: $primary_color;
+      }
+    }
+    .btn {
+      background: $bg_color;
+      &:hover {
+        background: $bg_color_highlight;
+      }
+    }
+
+    input {
+      display: inline-block;
+      padding: 3px;
+      background: $bg_color;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .wxhelper_toggle {
+      cursor: pointer;
+      margin-top: 10px;
+      margin-right: 10px;
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      right: 10px;
+      padding: 8px 10px;
+      font-size: 12px;
+      background: $bg_color;
+      &:hover {
+      }
+      .glyphicon-menu-left {
+        display: block;
+      }
+      .glyphicon-menu-right {
+        display: none;
+      }
+    }
+
+    #wxhelper_box {
+      z-index: 1;
+      position: absolute;
+
+      top: 0;
+      bottom: 0px;
+
+      left: 0px;
+      right: 0px;
+
+      background: $bg_color;
+      // padding: 0 10px;
+      margin-right: 10px;
+      height: 100%;
+      border-right: 1px solid $dividers_color;
+
+      .wxhelper_content {
+
+        position: relative;
+        height: 100%;
+
+        .wxhelper_view_header {
+          width: 94%;
+          padding: 10px 3%;
+
+          float: left;
+          position: relative;
+          border-bottom: 1px solid rgb(221, 221, 221);
+          span {
+            padding-right: 5px;
+          }
+          .title {
+            font-size: 25px;
+          }
+          .author {
+          }
+        }
+        .wxhelper_view {
+          position: relative;
+          float: left;
+          width: 94%;
+          padding: 0 3%;
+    
+          .message_box {
+            padding: 3px;
+            border-radius: 3px;
+            background: black;
+            height: 250px;
+            overflow-y: auto;
+
+            .alert {
+              padding: 0;
+              margin: 0;
+              background: transparent;
+              border: none;
+            }
+            .alert-info {
+              color: white;
+            }
+            .alert-success {
+              color: #26F31C;
+            }
+            .alert-warning {
+              color: #E8C70D;
+            }
+            .alert-danger {
+              color: red;
+            }
+          }
+
+          .action_list {
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+            .time_limit {
+              width: 35px;
+              text-align: center;
+            }
+          }
+        }
+        .wxhelper_view_footer {
+          border-top: 1px solid $dividers_color;
+
+          width: 100%;
+          position: absolute;
+          bottom: 25px;
+          left: 0;
+
+          p {
+            margin-top: 5px;
+            font-size: 12px;
+            color: $secondary_text;
+            text-align: center;
+            .glyphicon {
+              color: red;
+            }
+          }
+
+          .donate_tip {
+            color: red;
+            padding-left: 1em;
+          }
+
+          .make_with {
+          }
+
+          .qrcode_box {
+            padding: 10px 0;
+            line-height: 0;
+            text-align: center;
+            .hi {
+              display: block;
+              font-size: 100px;
+              &:before {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

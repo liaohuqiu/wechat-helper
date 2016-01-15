@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_app_name__",
+  "default_locale": "en",
+  "version": "0.0.8",
+  "description": "It helps you to manage your wechat.",
+  "permissions": [
+    "tabs", 
+    "http://*/*", 
+    "https://*/*",
+    "storage", 
+    "notifications", 
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["dist/js/background.js"],
+    "persistent": true
+  },
+  "web_accessible_resources": [
+    "dist/*",
+    "img/*"
+  ],
+  "content_scripts" : [
+    {
+    "js" : [
+      "dist/js/app.js"
+    ],
+    "css" : [
+      "dist/css/app.css"
+    ],
+    "matches" : [
+      "*://*.blog.srain.in/*",
+      "*://*.wechat.com/*",
+      "*://web1.wechatapp.com/*",
+      "*://wx.qq.com/*",
+      "*://wx1.qq.com/*",
+      "*://wx2.qq.com/*"
+    ]
+  }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://ssl.google-analytics.com; object-src 'self'",
+  "icons": {
+    "16": "./img/icon_16x16.png", 
+    "48": "./img/icon_48x48.png", 
+    "128": "./img/icon_128x128.png"
+  },
+  "browser_action": {
+    "default_popup": "./app/popup.html",
+    "default_title": "WeChat Helper",
+    "default_icon": "./img/icon_128x128.png"
+  }
+}
