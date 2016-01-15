@@ -6,13 +6,12 @@
 
 3.  支持大量好友
 
+### 如何运行和调试
+
 >   微信助手 Chrome 插件开发手记 -- Chrome 插件开发参考:
 
 >   http://www.liaohuqiu.net/cn/posts/wechat-helper/
 
-### 如何运行和调试
-
-代码已开源，本项目可作为 
 
 1.  安装依赖
 
