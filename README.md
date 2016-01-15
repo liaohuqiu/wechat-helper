@@ -1,3 +1,7 @@
+代码已开源。可作为 Chrome 插件开发参考。
+
+# [微信助手 Chrome 插件开发手记](http://www.liaohuqiu.net/cn/posts/wechat-helper/)
+
 ## 微信助手 - Chrome 插件
 
 1.  检查被谁删除
@@ -7,6 +11,32 @@
 3.  支持大量好友
 
     时间和精力允许，我会持续加入更多功能。
+
+### 如何运行和调试
+
+1.  安装依赖
+
+    npm install
+
+2.  build 插件的 `content_scripts` 和 `background`
+
+    npm run build
+
+3.  另外一个终端，build 插件的 `popup`.
+
+    npm run build-popup
+
+4.  扩展管理里面，选中 `extension` 文件夹，加载扩展
+
+    从导航栏上图标点开网页版微信，插件会自动加载。
+
+5.  代码修改后，自动会 build ，重新加载插件，刷新页面即可。
+
+    推荐使用 [Extensions Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid) + Spark 全局快捷键重新加载插件。
+
+6.  支持 source-map 源码调试。
+
+>   Happy coding!
 
 ### 使用方法
 
@@ -18,7 +48,9 @@
     
     2.  本插件会频繁升级，暂不支持手动安装扩展。
 
-        **Windows版本** 也在开发中，即将发布。
+        ~~**Windows版本** 也在开发中，即将发布。~~
+
+        **Windows 用户，请到这里**: [WeChat Helper -- Windows App](https://github.com/freedombird9/wechat-deletion-check)
 
 2.  使用
     
@@ -42,20 +74,15 @@
 
 ### 其他
 
-1. 开源
-
-    最近花了一些时间，开发这个 chrome 扩展。从产品设计到编码实现发布都有很多收获。
-    
-    其中关于前端开发，关于 Chrome 扩展开发，更是有很多心得。
-    
-    目前代码托管在私有 Git 上，在产品稳定之后，我会开源。
-    
-    如果这个插件使用的人多的话，我还会写篇文章，分享关于这个插件的非编码开发部分。
-
-2.  反馈
+1.  反馈
 
     1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
 
-3.  感谢
+2.  感谢
 
     感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends), 所谓巨人的肩膀。^_^
+
+
+### 许可
+
+MIT
