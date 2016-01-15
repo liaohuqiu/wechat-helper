@@ -1,95 +1,91 @@
-##  微信助手 - Chrome 插件
+## Wechart Helper - Chrome plug-in
 
-1.  检查被谁删除
+1. check who deleted your wechat contact
 
-2.  检查黑名单
+2. check black list
 
-3.  支持大量好友
+### How to run and debug
 
-### 如何运行和调试
-
->   微信助手 Chrome 插件开发手记 -- Chrome 插件开发参考:
+>   Wechart helper Chrome plug-in developing note -- reference of Chrome plug-in:
 
 >   http://www.liaohuqiu.net/cn/posts/wechat-helper/
 
 
-1.  安装依赖
+1.  Installing dependencies 
 
     ```
     npm install
     ```
 
-2.  build 插件的 `content_scripts` 和 `background`
+2.  build plug-in's `content_scripts` and `background`
 
     ```
     npm run build
     ```
 
-3.  另外一个终端，build 插件的 `popup`.
+3.  Another terminal，build plug-in's `popup`.
 
     ```
     npm run build-popup
     ```
 
-4.  扩展管理里面，选中 `extension` 文件夹，加载扩展
+4.  In the extension manage，select `extension` folder，load the extension.
 
-    从导航栏上图标点开网页版微信，插件会自动加载。
+    Click the icon to open web-wechart from navigation bar，plug-in will loading automatically. 
 
-5.  代码修改后，自动会 build ，重新加载插件，刷新页面即可。
+5.  After editing, code will build automatically. Please reloading the plug-in and fresh the page.
 
-    推荐使用 [Extensions Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid) + Spark 全局快捷键重新加载插件。
+    Suggests: Use [Extensions Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid) + Spark shotcut key reloading plug-in.
 
-6.  支持 source-map 源码调试。
+6.  Support source-map code debug.
 
 >   Happy coding!
 
 ---
 
-### 使用方法
+### How to use
 
-1. 安装
+1. install
 
-    1. 从 Chrome 商店安装。
+    1. Install from Chrome plug-in store
     
         https://chrome.google.com/webstore/detail/bdfbkchemknlpmmopkncahjdmocnambd/
     
-    2.  本插件会频繁升级，暂不支持手动安装扩展。
+    2.  wechart helper plug-in will upgrade continually, manually installing extension is not supported.
 
-        ~~**Windows版本** 也在开发中，即将发布。~~
+        **Windows users，Please click here**: [WeChat Helper -- Windows App](https://github.com/freedombird9/wechat-deletion-check)
 
-        **Windows 用户，请到这里**: [WeChat Helper -- Windows App](https://github.com/freedombird9/wechat-deletion-check)
-
-2.  使用
+2.  Use
     
-    1.  时间间隔设置为 **60** 秒以上
+    1.  The interval between each time set would be more than **60s**.
 
-    2.  **如果提示操作过于频繁，请稍后再试，下次会跳过已经检查过的好友。**
+    2.  **If the notic shows "You're doing it too frequently," please try later. Next time will skip the friends that already checked.**
 
 
-3.  截图
+3.  screenshot
 
     <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png'/></div>
 
     <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/2.png'/></div>
 
 
-### 原理
+### Theory 
 
-1.  检查联系人，即创建群组并加人，如果不是好友，无法加入。
+1.  Checking contact and adding contact to chart group. Contacts don't have friendship with you would not be added into the chart group.
 
-2.  如果联系人多，将会分批操作，下次会略过之前检查过的联系人。
+2.  Large numbers of contacts will be checked in batches, and each check will skip the already-checked contacts. 
 
-### 其他
+### Other
 
-1.  反馈
+1.  Feedback
 
-    1.  有任何问题和建议，请提交到这里: https://github.com/liaohuqiu/wechat-helper/issues
+    1.  If you have any question or suggestion, please send to:  https://github.com/liaohuqiu/wechat-helper/issues
 
-2.  感谢
+2.  Thanks
 
-    感谢 [@0x5e](https://github.com/0x5e) 同学的 [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends), 所谓巨人的肩膀。^_^
+    Thanks [@0x5e](https://github.com/0x5e) 's [wechat-deleted-friends](https://github.com/0x5e/wechat-deleted-friends)
 
 
-### 许可
+### permit
 
 MIT
