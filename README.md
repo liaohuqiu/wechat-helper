@@ -45,7 +45,7 @@
 
 ### How to use
 
-1. install
+1. Install
 
     1. Install from Chrome plug-in store
     
@@ -62,7 +62,7 @@
     2.  **If the notic shows "You're doing it too frequently," please try later. Next time will skip the friends that already checked.**
 
 
-3.  screenshot
+3.  Screenshot
 
     <div><img src='https://raw.githubusercontent.com/liaohuqiu/wechat-helper/master/art/1.png'/></div>
 
