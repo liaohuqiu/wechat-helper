@@ -1,8 +1,4 @@
-代码已开源。可作为 Chrome 插件开发参考。
-
-# [微信助手 Chrome 插件开发手记](http://www.liaohuqiu.net/cn/posts/wechat-helper/)
-
-## 微信助手 - Chrome 插件
+##  微信助手 - Chrome 插件
 
 1.  检查被谁删除
 
@@ -10,21 +6,31 @@
 
 3.  支持大量好友
 
-    时间和精力允许，我会持续加入更多功能。
+>   微信助手 Chrome 插件开发手记 -- Chrome 插件开发参考:
+
+>   http://www.liaohuqiu.net/cn/posts/wechat-helper/
 
 ### 如何运行和调试
 
+代码已开源，本项目可作为 
+
 1.  安装依赖
 
+    ```
     npm install
+    ```
 
 2.  build 插件的 `content_scripts` 和 `background`
 
+    ```
     npm run build
+    ```
 
 3.  另外一个终端，build 插件的 `popup`.
 
+    ```
     npm run build-popup
+    ```
 
 4.  扩展管理里面，选中 `extension` 文件夹，加载扩展
 
@@ -37,6 +43,8 @@
 6.  支持 source-map 源码调试。
 
 >   Happy coding!
+
+---
 
 ### 使用方法
 
