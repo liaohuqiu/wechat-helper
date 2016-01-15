@@ -24,25 +24,25 @@
     "message": "updating contact list..."
   },
   "doc_get_contact_list_done": {
-    "message": "更新完成，共 %s 个联系人"
+    "message": "updating finished, %s contacts in total"
   },
   "doc_get_contact_list_error": {
-    "message": "更新联系人列表出错"
+    "message": "error occured when updating contact list"
   },
   "doc_many_friend_warning": {
-    "message": "所需处理的好友数量较多，所需时间可能较长"
+    "message": "You have many contacts, it may take longer time than usual"
   },
   "doc_unlogin": {
-    "message": "未登录，请扫描二维码登录"
+    "message": "Login undetected, please scan the QR code to login"
   },
   "doc_resume_from_last": {
-    "message": "跳过 %s 个之前已经处理过的联系人"
+    "message": "skip %s contacts that have been inspected before"
   },
   "doc_split_group": {
-    "message": "%s 个联系人被分割为 %s 组，每组 %s 人"
+    "message": "%s contacts are to be divided into %s groups, with %s people each"
   },
   "doc_check_friend_round": {
-    "message": "处理第 %s 批联系人，需要 %s 秒，请稍侯。"
+    "message": "processing group number %s, which may take %s seconds"
   },
   "doc_delete_list_tip": {
     "message": "You have been deleted by: %s"
@@ -51,25 +51,25 @@
     "message": "You have been blocked by: %s"
   },
   "doc_check_friend_done": {
-    "message": "所有联系人处理完毕"
+    "message": "All your contacts have been successfully processed"
   },
   "doc_all_contact_ok": {
-    "message": "未发现被删除或黑名单"
+    "message": "None of your contacts deleted or blocked you"
   },
   "doc_try_add_member": {
-    "message": "尝试将联系人加入临时群组，请稍侯"
+    "message": "Trying to add the contacts to a temporary group, please hold on"
   },
   "doc_try_remove_member": {
-    "message": "将联系人从临时群组移除，请稍侯"
+    "message": "Deleting the contacts from the group, please hold on"
   },
   "create_chat_room_error": {
-    "message": "创建临时群组失败，请重试。"
+    "message": "Creating group failed, please try again"
   },
   "unknow_error": {
     "message": "unknown network error"
   },
   "donate_tip": {
-    "message": "如果你觉得这个插件不错，欢迎打赏。"
+    "message": "Your donations will be greatly appreciated"
   },
   "open_web_wechat": {
     "message": "Open Web Wechat"
